@@ -1,5 +1,5 @@
 {
-  "name": "lighthouse-ci",
+  "name": "@bordertech/lighthouse-ci",
   "version": "1.10.3",
   "description": "CLI implementation for running Lighthouse with any CI tool",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "chrome-launcher": "^0.13.2",
-    "chromium": "^3.0.1",
+    "chromium": "^3.0.2",
     "lighthouse": "^6.0.0",
     "meow": "^6.1.0",
     "mkdirp": "^0.5.5",
@@ -49,7 +49,9 @@
     "LICENSE"
   ],
   "jest": {
-    "testPathIgnorePatterns": [".history"]
+    "testPathIgnorePatterns": [
+      ".history"
+    ]
   },
   "engines": {
     "node": ">=10.13"
@@ -73,11 +75,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andreasonny83/lighthouse-ci.git"
+    "url": "git+https://github.com/ricksbrown/lighthouse-ci.git"
   },
   "bugs": {
-    "url": "https://github.com/andreasonny83/lighthouse-ci/issues"
+    "url": "https://github.com/ricksbrown/lighthouse-ci/issues"
   },
-  "homepage": "https://github.com/andreasonny83/lighthouse-ci.git#readme",
+  "homepage": "https://github.com/ricksbrown/lighthouse-ci.git#readme",
   "snyk": true
 }
