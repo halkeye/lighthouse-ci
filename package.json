@@ -81,5 +81,8 @@
     "url": "https://github.com/ricksbrown/lighthouse-ci/issues"
   },
   "homepage": "https://github.com/ricksbrown/lighthouse-ci.git#readme",
-  "snyk": true
+  "snyk": true,
+  "publishConfig": {
+    "access": "public"
+  }
 }
