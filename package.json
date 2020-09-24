@@ -1,6 +1,6 @@
 {
   "name": "@bordertech/lighthouse-ci",
-  "version": "1.10.4",
+  "version": "1.10.5",
   "description": "CLI implementation for running Lighthouse with any CI tool",
   "scripts": {
     "test": "npm run format && xo && jest",
