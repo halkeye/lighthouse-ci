@@ -9,14 +9,11 @@
     "format": "prettier --write \"lib/**/*.{js,js}\"",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
-    "release": "np",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "release": "np"
   },
   "dependencies": {
     "chrome-launcher": "^0.13.2",
     "chromium": "^3.0.2",
-    "lighthouse": "^6.0.0",
     "meow": "^6.1.0",
     "mkdirp": "^0.5.5",
     "ora": "^3.4.0",
@@ -29,10 +26,14 @@
     "all-contributors-cli": "^6.8.1",
     "chalk": "^2.4.2",
     "jest": "^24.8.0",
+    "lighthouse": "^8.0.0",
     "np": "^5.0.3",
     "prettier": "^1.18.2",
     "snyk": "^1.362.0",
     "xo": "^0.32.1"
+  },
+  "peerDependencies": {
+    "lighthouse": ">=6.0.0"
   },
   "keywords": [
     "devtools",
